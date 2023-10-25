@@ -12,6 +12,6 @@ def init():
         intents = intents # Set up basic permissions
     )
 
-    bot.author_id = 198544375926620160  # Change to your discord id
+    bot.author_id = 0  # Change to your discord id
 
     return bot

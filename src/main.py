@@ -50,6 +50,16 @@ async def flood(ctx, message):
     await commands.flood(ctx, message)
 
 
+@bot.command()
+async def xkcd(ctx):
+    await commands.xkcd(ctx)
+
+
+@bot.command()
+async def poll(ctx, *, content):
+    await commands.poll(ctx, content)
+
+
 # Bot runner
-token = "MTE2Njc4NDUyNTU1NzMwMTI5OA.GcBzng.5cIEkAFKuNqM15rB1KOJAqGfLvJf-LszTvq_64"
+token = "<INSERT_YOUR_OWN_TOKEN>"
 bot.run(token)  # Starts the bot
